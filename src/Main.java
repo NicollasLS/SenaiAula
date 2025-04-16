@@ -1,17 +1,19 @@
+import model.Aluno;
+
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
 
-        public class aluno {
+        Aluno primeiroAluno = new Aluno("Pedro", 22, 7.0, 8.5, 9.0);
+        Aluno segundoAluno = new Aluno("Joana", 17, 3.5, 6.0, 7.0);
 
-            private String nome;
-            private int idade;
-            private double nota1, nota2, nota3;
+        primeiroAluno.exibirDados();
 
-            public aluno (String nome, int idade, double nota1,double nota2 ,double nota3 ) {
-                this.nome;
-                this.idade;
+        System.out.println("----------");
+
+        segundoAluno.exibirDados();
+
 
 
             }
@@ -21,21 +23,3 @@ public class Main {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    }
-}
